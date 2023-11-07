@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.prod-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 280px;
+  border: 2px solid black;
+  border-radius: 5px;
+  gap: 0.1rem;
+}
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.cart-action {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
